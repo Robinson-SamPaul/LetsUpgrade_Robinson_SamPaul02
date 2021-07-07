@@ -1,0 +1,379 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header{
+    height: 90px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+}
+
+.container{
+    width: 90%;
+    display: flex;
+
+}
+
+.headerContainer{
+    justify-content: space-between;    
+}
+
+.logo{
+    height: 90px;
+    width: 15%;
+    font-size: 40px;
+    font-family: segoe UI;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    line-height: 90px;
+    cursor: pointer;
+}
+
+.nav{
+    height: 90px;
+    width: 35%;
+    display: flex;
+}
+
+.navItem{
+    width: 20%;
+    height: 90px;
+    font-family: segoe UI;
+    text-align: center;
+    line-height: 90px;
+    color: white;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.navItem:hover {
+    background-color: white;
+    color: rgba(16, 128, 234, 1);
+    
+}
+
+.banner{
+    height: 95vh;
+    width: 100%;
+    background-color: gray;
+    background-size: cover;
+    background-image: url('./images/banner.jpg');
+}
+
+.overlay{
+    height: 95vh;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    align-items: center;
+}
+
+.bannerText{
+    height: 350px;
+    width: 50%;
+    background-color: rgba(16, 128, 234, 0.7);
+    font-family: segoe UI;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.bannerTitle{
+    font-size: 50px;
+    margin-bottom: 15px;
+    
+}
+
+.bannerDesc{
+    margin-bottom: 30px;
+}
+
+.padd{
+    padding: 50px;
+}
+
+.bannerBtn{
+    padding-left: 60px;
+    padding-right:60px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    font-family: segoe ui;
+    border:3px solid white;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.bannerBtn:hover{
+    background-color: white;
+    color: rgba(16, 128, 234, 1);
+}
+
+.services{
+    padding-top:50px;
+    padding-bottom: 50px;
+    background-color: #e6e6e6;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: segoe UI;
+}
+
+.servicesContainer{
+    margin-top: 50px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.service{
+    height: 400px;
+    width: 47%;
+    background-color: white;
+    display: flex;
+    margin-top: 20px;
+}
+
+
+.serviceImg{
+    width: 40%;
+    height: 400px;
+    display: flex;
+    overflow: hidden;
+}
+
+.serviceDetails{
+    width: 60%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+}
+
+.servicePadd{
+    padding: 20px;
+}
+
+.serviceBtn{
+
+    padding-left: 60px;
+    padding-right:60px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+    background-color: rgba(16, 128, 234, 1);
+    color: white;
+    font-weight: bold;
+    font-family: segoe ui;
+    border:none;
+    cursor: pointer;
+    transition: .4s;
+
+}
+
+.serviceTitle{
+    margin-bottom: 15px;
+}
+
+.serviceDesc{
+    margin-bottom: 30px;
+}
+
+.about{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    /* background-color: gray; */
+    display: flex;
+    flex-direction: column;
+    font-family: Segoe UI;
+    align-items: center;
+}
+
+.aboutContainer{
+    margin-top: 30px;
+    line-height: 30px;
+    display: inline;
+}
+
+.startText{
+    font-size: 40px;
+    font-weight: bold;
+    color: rgba(16, 128, 234, 1);
+}
+
+.highlight{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    display: flex;
+    background-color: rgba(16, 128, 234, 1);
+    justify-content: center;
+}
+
+.highEle{
+    width: 22%;
+    height: 220px;
+    background-color: rgb(87, 87, 233,.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Segoe UI;
+    text-align: center;
+    color: white;
+}
+
+.highTitle{
+    font-size: 60px;
+}
+
+.highDesc{
+    font-size: 25px;
+}
+
+.highlightContainer{
+    justify-content: space-between;
+}
+
+.quote{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.quoteContainer{
+    flex-direction: column;
+    align-items: center;
+}
+
+.quoteTitle{
+    font-size: 50px;
+    margin-bottom: 20px;
+
+}
+
+.portfolio{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Segoe UI;
+    background-color: rgb(87, 87, 233,.5);
+    color: white;
+}
+
+.portfolioContainer{
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.work{
+    width: 25%;
+    height:300px;
+    background-image: url('./images/work.jpeg');
+    background-size: cover;
+}
+
+.workTitle{
+    color: white;
+    background-color: rgba(16, 128, 234, .5);
+    width: 100%;
+    height: 50px;
+    text-indent: 30px;
+    line-height: 50px;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.workTitle:hover{
+    height: 300px;
+
+}
+
+.footer{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: rgba(16, 128, 234, 0.7);
+    
+}
+
+.footerChild{
+    height: 300px;
+    width: 25%;
+    font-family: Segoe UI;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.child1{
+    font-size: 25px;
+    color: rgba(16, 128, 234, 1);
+    cursor: pointer;
+}
+
+li{
+    list-style-type: none;
+    color: rgba(16, 128, 234, 1);
+}
+
+.list{
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.child4{
+    display: flex;
+    width: 50%;
+}
+
+.containerIcon{
+    justify-content: space-between;
+    
+}
+
+.icons{
+    height: 60px;
+    width: 60px;
+    background-color: white;
+    justify-content: space-between;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.icon1{
+    background-image: url('./images/Facebook.png') ;
+}
+
+.icon2{
+    background-image: url('./images/Google.png') ;
+}
+
+.icon3{
+    background-image: url('./images/Linkedin.png') ;
+}
+.icon4{
+    background-image: url('./images/Instagram.png') ;
+}
+
+.icon5{
+    background-image: url('./images/Telegram.png') ;
+}
+
+.icon6{
+    background-image: url('./images/Youtube.png') ;
+}
+
